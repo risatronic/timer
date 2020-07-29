@@ -13,7 +13,7 @@ const timer = function(intervals) {
     if (interval < 0 || !interval) {
       break;
     }
-    setTimeout(() => beep(), interval * 1000);
+    setTimeout(beep, interval * 1000);
   }
 };
 
